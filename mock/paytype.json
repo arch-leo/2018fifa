@@ -1,0 +1,830 @@
+{
+    "data": [
+        {
+            "groupid": 23,
+            "groupname": "网银",
+            "image": "https://cpweb.kosungames.com/uploads/20180427/1cc4f9b25f1d12cf79aba09d181ff0b6.png",
+            "mobileimage": "https://cpweb.kosungames.com/uploads/20180427/fbf81bacaced8caffbb309d9131c874b.png",
+            "merchant": [
+                {
+                    "id": 200,
+                    "name": "网银-在线支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/1.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 2,
+                    "shortname": "online_bank",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0,
+                    "bank": [
+                        {
+                            "bankid": 1,
+                            "bankname": "中国工商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankcode": "ICBC"
+                        },
+                        {
+                            "bankid": 2,
+                            "bankname": "中国建设银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankcode": "CCB"
+                        },
+                        {
+                            "bankid": 3,
+                            "bankname": "招商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankcode": "CMBC"
+                        },
+                        {
+                            "bankid": 4,
+                            "bankname": "中国农业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankcode": "ABC"
+                        },
+                        {
+                            "bankid": 5,
+                            "bankname": "交通银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankcode": "BOCOM"
+                        },
+                        {
+                            "bankid": 6,
+                            "bankname": "广发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankcode": "CGB"
+                        },
+                        {
+                            "bankid": 7,
+                            "bankname": "中国银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankcode": "BOC"
+                        },
+                        {
+                            "bankid": 8,
+                            "bankname": "中国民生银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankcode": "CMBCS"
+                        },
+                        {
+                            "bankid": 9,
+                            "bankname": "华夏银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/de19ea20d877fbb5881fb8d52639c671.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/de19ea20d877fbb5881fb8d52639c671.png",
+                            "bankcode": "HXB"
+                        },
+                        {
+                            "bankid": 12,
+                            "bankname": "中信银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankcode": "ECITIC"
+                        },
+                        {
+                            "bankid": 13,
+                            "bankname": "北京银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankcode": "BJBANK"
+                        },
+                        {
+                            "bankid": 14,
+                            "bankname": "兴业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankcode": "CIB"
+                        },
+                        {
+                            "bankid": 15,
+                            "bankname": "平安银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/8864bcf7853d243e271b1a59515db3f3.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/8864bcf7853d243e271b1a59515db3f3.png",
+                            "bankcode": "PINGAN"
+                        },
+                        {
+                            "bankid": 16,
+                            "bankname": "中国邮政储蓄银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankcode": "PSBC"
+                        },
+                        {
+                            "bankid": 17,
+                            "bankname": "上海银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/31fa3736a2db45e157eb2ecea545fe08.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/31fa3736a2db45e157eb2ecea545fe08.png",
+                            "bankcode": "BOS"
+                        },
+                        {
+                            "bankid": 18,
+                            "bankname": "浦发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankcode": "SPDB"
+                        },
+                        {
+                            "bankid": 19,
+                            "bankname": "中国光大银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankcode": "CEBBANK"
+                        }
+                    ]
+                },
+                {
+                    "id": 136,
+                    "name": "网银-在线支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/1.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 2,
+                    "shortname": "online_bank",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0,
+                    "bank": [
+                        {
+                            "bankid": 1,
+                            "bankname": "中国工商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankcode": "967"
+                        },
+                        {
+                            "bankid": 2,
+                            "bankname": "中国建设银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankcode": "965"
+                        },
+                        {
+                            "bankid": 3,
+                            "bankname": "招商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankcode": "970"
+                        },
+                        {
+                            "bankid": 4,
+                            "bankname": "中国农业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankcode": "964"
+                        },
+                        {
+                            "bankid": 5,
+                            "bankname": "交通银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankcode": "981"
+                        },
+                        {
+                            "bankid": 6,
+                            "bankname": "广发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankcode": "985"
+                        },
+                        {
+                            "bankid": 7,
+                            "bankname": "中国银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankcode": "963"
+                        },
+                        {
+                            "bankid": 8,
+                            "bankname": "中国民生银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankcode": "980"
+                        },
+                        {
+                            "bankid": 12,
+                            "bankname": "中信银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankcode": "962"
+                        },
+                        {
+                            "bankid": 13,
+                            "bankname": "北京银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankcode": "989"
+                        },
+                        {
+                            "bankid": 14,
+                            "bankname": "兴业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankcode": "972"
+                        },
+                        {
+                            "bankid": 16,
+                            "bankname": "中国邮政储蓄银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankcode": "971"
+                        },
+                        {
+                            "bankid": 18,
+                            "bankname": "浦发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankcode": "977"
+                        },
+                        {
+                            "bankid": 19,
+                            "bankname": "中国光大银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankcode": "986"
+                        }
+                    ]
+                },
+                {
+                    "id": 137,
+                    "name": "银联钱包",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/17.png",
+                    "description": "火爆",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "unionpay_wallet",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 129,
+                    "name": "银联钱包",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/17.png",
+                    "description": "",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "unionpay_wallet",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 127,
+                    "name": "银联钱包-一键支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/18.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "unionpay_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 198,
+                    "name": "银联钱包-一键支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/18.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "unionpay_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 1030,
+                    "account": "0602020201001729***",
+                    "userName": "王永华",
+                    "bankAddress": "呼和浩特桥华世纪支行",
+                    "bankname": "中国工商银行",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                    "code": "icbc",
+                    "actiontype": 3,
+                    "minamount": "10.00",
+                    "maxamount": "9999999999.99"
+                },
+                {
+                    "id": 1152,
+                    "account": "08081101040001***",
+                    "userName": "哈尔滨麦华电子科技有限公司",
+                    "bankAddress": "黑龙江分行",
+                    "bankname": "中国农业银行",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                    "code": "abc",
+                    "actiontype": 3,
+                    "minamount": "10.00",
+                    "maxamount": "9999999999.99"
+                },
+                {
+                    "id": 10015,
+                    "name": "网银-无卡支付",
+                    "image": "https://cpweb.kosungames.com/public/image/pc_bank.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "pc_no_card_bank",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0,
+                    "bank": [
+                        {
+                            "bankid": 1,
+                            "bankname": "中国工商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankcode": "ICBC"
+                        },
+                        {
+                            "bankid": 2,
+                            "bankname": "中国建设银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankcode": "CCB"
+                        },
+                        {
+                            "bankid": 3,
+                            "bankname": "招商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankcode": "CMB"
+                        },
+                        {
+                            "bankid": 4,
+                            "bankname": "中国农业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankcode": "ABC"
+                        },
+                        {
+                            "bankid": 5,
+                            "bankname": "交通银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankcode": "BOCO"
+                        },
+                        {
+                            "bankid": 6,
+                            "bankname": "广发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankcode": "GDB"
+                        },
+                        {
+                            "bankid": 7,
+                            "bankname": "中国银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankcode": "BOC"
+                        },
+                        {
+                            "bankid": 8,
+                            "bankname": "中国民生银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankcode": "CMBC"
+                        },
+                        {
+                            "bankid": 9,
+                            "bankname": "华夏银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/de19ea20d877fbb5881fb8d52639c671.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/de19ea20d877fbb5881fb8d52639c671.png",
+                            "bankcode": "HXB"
+                        },
+                        {
+                            "bankid": 12,
+                            "bankname": "中信银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankcode": "CTTIC"
+                        },
+                        {
+                            "bankid": 13,
+                            "bankname": "北京银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankcode": "BCCB"
+                        },
+                        {
+                            "bankid": 14,
+                            "bankname": "兴业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankcode": "CIB"
+                        },
+                        {
+                            "bankid": 15,
+                            "bankname": "平安银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/8864bcf7853d243e271b1a59515db3f3.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/8864bcf7853d243e271b1a59515db3f3.png",
+                            "bankcode": "PINGANBANK"
+                        },
+                        {
+                            "bankid": 16,
+                            "bankname": "中国邮政储蓄银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankcode": "PSBS"
+                        },
+                        {
+                            "bankid": 17,
+                            "bankname": "上海银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/31fa3736a2db45e157eb2ecea545fe08.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/31fa3736a2db45e157eb2ecea545fe08.png",
+                            "bankcode": "SHB"
+                        },
+                        {
+                            "bankid": 18,
+                            "bankname": "浦发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankcode": "SPDB"
+                        },
+                        {
+                            "bankid": 19,
+                            "bankname": "中国光大银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankcode": "CEB"
+                        }
+                    ]
+                },
+                {
+                    "id": 10016,
+                    "name": "网银-快捷支付",
+                    "image": "https://cpweb.kosungames.com/public/image/web_bank.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "wap_no_card_bank",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0,
+                    "bank": [
+                        {
+                            "bankid": 1,
+                            "bankname": "中国工商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/95541a0a686a300c3b5f904238e1fe6c.png",
+                            "bankcode": "ICBC"
+                        },
+                        {
+                            "bankid": 2,
+                            "bankname": "中国建设银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/90ed1551ff8c80cc96c793c3d605ad6b.png",
+                            "bankcode": "CCB"
+                        },
+                        {
+                            "bankid": 3,
+                            "bankname": "招商银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d5f8259d9d0bbdf50d96ca17779bb00d.png",
+                            "bankcode": "CMB"
+                        },
+                        {
+                            "bankid": 4,
+                            "bankname": "中国农业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/6e8a0a5874a7ab4df7c405e5602788ce.png",
+                            "bankcode": "ABC"
+                        },
+                        {
+                            "bankid": 5,
+                            "bankname": "交通银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/0381fedaf72782a948d96f8832856118.png",
+                            "bankcode": "BOCO"
+                        },
+                        {
+                            "bankid": 6,
+                            "bankname": "广发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/1fa718b0429aac652dccb8a062ae5e61.png",
+                            "bankcode": "GDB"
+                        },
+                        {
+                            "bankid": 7,
+                            "bankname": "中国银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/a4fba456f71e066f49a9ed4554569579.png",
+                            "bankcode": "BOC"
+                        },
+                        {
+                            "bankid": 8,
+                            "bankname": "中国民生银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/b197358d4d85c44b88e67977caf0ef20.png",
+                            "bankcode": "CMBC"
+                        },
+                        {
+                            "bankid": 9,
+                            "bankname": "华夏银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/de19ea20d877fbb5881fb8d52639c671.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/de19ea20d877fbb5881fb8d52639c671.png",
+                            "bankcode": "HXB"
+                        },
+                        {
+                            "bankid": 12,
+                            "bankname": "中信银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e4e8d46d7d8b5ef6def312215dc78d9b.png",
+                            "bankcode": "CTTIC"
+                        },
+                        {
+                            "bankid": 13,
+                            "bankname": "北京银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/d46e646e39eb13503b3f85e8a25b9483.png",
+                            "bankcode": "BCCB"
+                        },
+                        {
+                            "bankid": 14,
+                            "bankname": "兴业银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/01880a2f9b2558a7461e3f795a027f61.png",
+                            "bankcode": "CIB"
+                        },
+                        {
+                            "bankid": 15,
+                            "bankname": "平安银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/8864bcf7853d243e271b1a59515db3f3.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/8864bcf7853d243e271b1a59515db3f3.png",
+                            "bankcode": "PINGANBANK"
+                        },
+                        {
+                            "bankid": 16,
+                            "bankname": "中国邮政储蓄银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/fd24a69b8a314dabf5cb38ce52ad7fd7.png",
+                            "bankcode": "PSBS"
+                        },
+                        {
+                            "bankid": 17,
+                            "bankname": "上海银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/31fa3736a2db45e157eb2ecea545fe08.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/31fa3736a2db45e157eb2ecea545fe08.png",
+                            "bankcode": "SHB"
+                        },
+                        {
+                            "bankid": 18,
+                            "bankname": "浦发银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/5c28bcee84b2a6ff290a18f7d83aa839.png",
+                            "bankcode": "SPDB"
+                        },
+                        {
+                            "bankid": 19,
+                            "bankname": "中国光大银行",
+                            "bankimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankmobileimage": "http://wcweb-1254050727.file.myqcloud.com/backend.rechargecenter.cc/upload/pay_manage/20180118/e162381d2d9559ebcde7365dbd63cecd.png",
+                            "bankcode": "CEB"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupid": 22,
+            "groupname": "京东",
+            "image": "https://cpweb.kosungames.com/uploads/20180427/da64a7366e8a8eac3648f41634e15be2.png",
+            "mobileimage": "https://cpweb.kosungames.com/uploads/20180427/4c69dfcb69b6fd095dd9b089e473427c.png",
+            "merchant": [
+                {
+                    "id": 174,
+                    "name": "京东钱包",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/13.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "jd_wallet",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 154,
+                    "name": "京东钱包",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/13.png",
+                    "description": "",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "jd_wallet",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 143,
+                    "name": "京东钱包",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/13.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "jd_wallet",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 182,
+                    "name": "京东钱包-一键支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/14.png",
+                    "description": "火爆",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "jd_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 172,
+                    "name": "京东钱包-一键支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/14.png",
+                    "description": "",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "jd_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 165,
+                    "name": "京东钱包-一键支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/14.png",
+                    "description": "",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "jd_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                }
+            ]
+        },
+        {
+            "groupid": 20,
+            "groupname": "QQ",
+            "image": "https://cpweb.kosungames.com/uploads/20180427/4623aa5a8198e770c2bea4a0f54d8747.png",
+            "mobileimage": "https://cpweb.kosungames.com/uploads/20180427/73219a35c70fbedfb6df223b56b1d119.png",
+            "merchant": [
+                {
+                    "id": 191,
+                    "name": "QQ钱包-扫码支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/11.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "qq_wallet_scan_code",
+                    "scheme": "mqqapiwallet://",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 134,
+                    "name": "QQ钱包-扫码支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/11.png",
+                    "description": "火爆",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "qq_wallet_scan_code",
+                    "scheme": "mqqapiwallet://",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 155,
+                    "name": "QQ钱包-一键支付〖推荐〗",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/12.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "qq_wallet_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 133,
+                    "name": "QQ钱包-一键支付〖推荐〗",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/12.png",
+                    "description": "火爆",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "qq_wallet_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                }
+            ]
+        },
+        {
+            "groupid": 19,
+            "groupname": "微信",
+            "image": "https://cpweb.kosungames.com/uploads/20180427/fde9c5b30d6a42f128a8c2ec1c5de2d5.png",
+            "mobileimage": "https://cpweb.kosungames.com/uploads/20180427/c7dca01004b186d80a6100a7ebe9fec1.png",
+            "merchant": [
+                {
+                    "id": 159,
+                    "name": "微信-一键支付〖推荐〗",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/4.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "wechat_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 173,
+                    "name": "微信-扫码支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/7.png",
+                    "description": "稳定",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "wechat_scan_code",
+                    "scheme": "weixin://",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                }
+            ]
+        },
+        {
+            "groupid": 18,
+            "groupname": "支付宝",
+            "image": "https://cpweb.kosungames.com/uploads/20180427/57a7fce782b45fb6bb52a4a408924a37.png",
+            "mobileimage": "https://cpweb.kosungames.com/uploads/20180427/dc27715aad0d80926e1f9c555e9aa34c.png",
+            "merchant": [
+                {
+                    "id": 156,
+                    "name": "支付宝-一键支付〖推荐〗",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/5.png",
+                    "description": "火爆",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "alipay_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 201,
+                    "name": "支付宝-一键支付〖推荐〗",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/5.png",
+                    "description": "",
+                    "alias": "",
+                    "actiontype": 7,
+                    "shortname": "alipay_quick_pay",
+                    "scheme": "",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                },
+                {
+                    "id": 152,
+                    "name": "支付宝-扫码支付",
+                    "image": "http://wcweb-1254050727.file.myqcloud.com/public/image/pay/6.png",
+                    "description": "火爆",
+                    "alias": "",
+                    "actiontype": 1,
+                    "shortname": "alipay_scan_code",
+                    "scheme": "alipay://",
+                    "decimalplaces": 0,
+                    "minamount": "10.00",
+                    "maxamount": 0
+                }
+            ]
+        }
+    ]
+}

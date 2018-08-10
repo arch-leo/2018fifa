@@ -1,0 +1,73 @@
+export const basketball = [{
+  'name': '独赢',
+  'engName': '1x2',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '让球',
+  'engName': 'handicap',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '大小',
+  'engName': 'ou',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '单双',
+  'engName': 'oe',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '滚球独赢',
+  'engName': '1x2_in',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '滚球让球',
+  'engName': 'handicap_in',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '滚球大小',
+  'engName': 'ou_in',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '滚球单双',
+  'engName': 'oe_in',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '冠军',
+  'engName': 'outright',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '综合过关',
+  'engName': 'parlay',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '滚球球队得分大小',
+  'engName': 'ou_team_in',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}, {
+  'name': '球队得分大小',
+  'engName': 'ou_team',
+  'singleBetLimitMax': 300000,
+  'singleBetLimitMin': 10,
+  'singleMatchLimitMax': 500000
+}]

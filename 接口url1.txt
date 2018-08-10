@@ -1,0 +1,64 @@
+//获取比赛
+http://api.soccer.com/service/match?sportid=1&eventtype=today&playtype=ht_ft&page=1&pagesize=10
+//下注
+http://api.soccer.com/service/billbet?sportid=1&autoodds=yes&betamount=10&eventType=today&betinfo=[{%22gameid%22:%22c0eb8380614abf06a04749fa0d0a74f9%22,%22odds%22:%220.93%22,%22playtype%22:%22fthandicap%22,%22oddskey%22:%22iorrh%22,%22ratio%22:%220/0.5%22,%22ratiokey%22:%22ratio%22,%22strong%22:%22c%22}]&
+
+//注册
+http://api.soccer.com/service/reg?username=whnpneo&password=111111
+//登录
+http://api.soccer.com/service/login?username=whnpneo&password=111111
+
+//检查用户是否存在
+http://api.soccer.com/service/hasuser?username=whnpneo3
+//退出
+http://api.soccer.com/service/logout
+
+//获取订单列表 status: win wait quit
+http://api.soccer.com/service/bills?page=1&sprotid=1&status=all
+
+//获取订单详情
+http://api.soccer.com/service/billinfo?order=B2018050000011
+
+//账户明细 detailtype:-1=投注 1=充值
+http://api.soccer.com/service/userdetail?detailtype=-100&page=1
+
+//充值记录 detailtype:0=微信 1=支付宝 100=赠送
+http://api.soccer.com/service/usercharge?detailtype=-100&page=1
+
+
+//兑换记录 detailtype:0=微信 1=支付宝 100=赠送
+http://api.soccer.com/service/usercash?detailtype=-100&page=1
+
+//获取用户信息
+http://api.soccer.com/service/userinfo
+
+
+//运动类型
+http://api.soccer.com/service/sports
+
+//获取菜单类型
+http://api.soccer.com/service/plays
+
+//获取广告
+http://api.soccer.com/service/activity
+
+//获取公告
+http://api.soccer.com/service/notice
+
+//获取比分 sportid 1=足球
+http://api.soccer.com/service/list?sportid=1&page=1&date=2018-05-05
+
+
+
+//设置提款密码及真实姓名
+http://api.soccer.com/service/setcash?truename=%E5%BC%A0%E4%B8%89&cashpassword=111111
+
+//兑换操作 type 0=微信 1=支付宝
+http://api.soccer.com/service/cash?&cashpassword=222222&amount=100&type=1&wx=whnp&alipay=whnp
+
+// 获取支付列表
+http://api.soccerpay.com/service/banks
+//发起支付 app
+http://api.soccerpay.com/service/pay?groupid=2&actiontype=alipay_app&amount=10
+//发起支付 qr
+http://api.soccerpay.com/service/pay?groupid=2&actiontype=alipay_qr&amount=10
